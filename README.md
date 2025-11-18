@@ -6,20 +6,20 @@
 
 ## Descripción
 
-Servicio Web desarrollado con Node.js y Express que actúa como intermediario para consumir la API de contactos de `http://www.raydelto.org/agenda.php`. 
+Servicio Web desarrollado con Node.js y Express que actúa como intermediario para consumir la API de contactos.
 
 El servidor recibe peticiones del cliente, las reenvía a la API de raydelto, y devuelve las respuestas con formato mejorado.
 
 
 ## Capturas de Pantalla
 
-![Servidor corriendo en terminal](Capturas\ApiAgenda.png)
+![Servidor corriendo en terminal](ApiAgenda.png)
 
-![POST - Agregando contacto con Thunder Client](Capturas\ApiPost.png)
+![POST - Agregando contacto con Thunder Client](ApiPost.png)
 
-![GET - Listando contactos con Thunder Client](Capturas\ApiGet.png)
+![GET - Listando contactos con Thunder Client](ApiGet.png)
 
-![Terminal](Capturas\Terminal.png)
+![Terminal](Terminal.png)
 
 
 
