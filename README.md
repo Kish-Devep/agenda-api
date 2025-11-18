@@ -1,4 +1,4 @@
-# API REST - Agenda de Contactos
+# API Intermediaria - Agenda de Contactos
 
 **Autor:** Manuel Mella  
 **Matrícula:** 2024-1662  
@@ -6,11 +6,20 @@
 
 ## Descripción
 
-API REST desarrollada con Node.js y Express que permite gestionar una agenda de contactos.
+Servicio Web desarrollado con Node.js y Express que actúa como intermediario para consumir la API de contactos de `http://www.raydelto.org/agenda.php`. 
 
-# Capturas de pantalla
+El servidor recibe peticiones del cliente, las reenvía a la API de raydelto, y devuelve las respuestas con formato mejorado.
 
-![Captura de pantalla corriendo el programa.](ApiCap1.png)
-![Api-Post agregando contacto.](ApiAgregandoContacto.png)
-![Get usando thunder client](ApiGetContactos.png)
+
+## Capturas de Pantalla
+
+![Servidor corriendo en terminal](Capturas\ApiAgenda.png)
+
+![POST - Agregando contacto con Thunder Client](Capturas\ApiPost.png)
+
+![GET - Listando contactos con Thunder Client](Capturas\ApiGet.png)
+
+![Terminal](Capturas\Terminal.png)
+
+
 

@@ -4,8 +4,7 @@
   "description": "API REST para agenda de contactos - Tarea 5",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server.js"
   },
   "keywords": ["express", "api", "rest", "contactos"],
   "author": "Manuel Mella - 2024-1662",
